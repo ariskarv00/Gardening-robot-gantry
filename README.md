@@ -16,10 +16,6 @@ DTU Skylab - Gardening Robot - Basic movements demo: https://www.youtube.com/wat
 
 
 
----
-
-
-
 \## Features
 
 
@@ -42,18 +38,18 @@ DTU Skylab - Gardening Robot - Basic movements demo: https://www.youtube.com/wat
 
 
 
-\- `hardware/` – CAD models (STEP/STL), drawings, DXF for laser/waterjet, and photos  
+\- `hardware/` – CAD models (.f3d), .DXF for wooden puzzle grid, and BOM (.xlsx) 
 
-\- `electronics/` – Schematics and wiring diagrams, connector pinouts  
+\- `electronics/` – Schematics and wiring diagrams, pictures of connections 
 
-\- `firmware/klipper/` – `printer.cfg` and macro files for motion, planting, and watering  
+\- `firmware/klipper/` – `printer.cfg` and pictures of Fluidd UI 
 
 \- `docs/` – Build guide, user guide, and notes for future improvements  
 
+\- `pictures/` – Pictures of the assembly and 3D models
 
 
 \## Hardware overview
-
 
 
 \- Aluminum extrusion frame and V‑slot linear motion  
@@ -88,7 +84,7 @@ See `docs/` for:
 
 
 
-\- Step‑by‑step build instructions  
+\- Step‑by‑step build instructions - Also follow Farmbot's Genesis documentation 
 
 \- Basic operation and maintenance  
 
