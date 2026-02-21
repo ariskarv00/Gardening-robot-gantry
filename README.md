@@ -1,12 +1,11 @@
-# Gardening-robot-gantry
-
-Modular Cartesian gardening robot (FarmBot‑inspired) with custom CNC gantry, 4×4 pot grid, Klipper‑controlled toolhead (seeder, pump, camera) and Home Assistant automation, developed at DTU Skylab.
 
 # Gardening Robot Gantry (DTU Skylab)
 
 
-
 Modular Cartesian gardening robot inspired by the FarmBot Genesis, designed and built at DTU Skylab as a platform for student projects, course integration, and future startup exploration.
+
+Farmbot: https://farm.bot/
+Farmbot Genesis Documentation: https://genesis.farm.bot/v1.8/assembly/intro
 
 
 
@@ -84,7 +83,7 @@ See `docs/` for:
 
 
 
-\- Step‑by‑step build instructions - Also follow Farmbot's Genesis documentation 
+\- Step‑by‑step build instructions - Also follow Farmbot's Genesis documentation: https://genesis.farm.bot/v1.8/assembly/intro
 
 \- Basic operation and maintenance  
 
