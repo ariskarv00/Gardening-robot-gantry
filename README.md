@@ -1,2 +1,98 @@
 # Gardening-robot-gantry
+
 Modular Cartesian gardening robot (FarmBot‑inspired) with custom CNC gantry, 4×4 pot grid, Klipper‑controlled toolhead (seeder, pump, camera) and Home Assistant automation, developed at DTU Skylab.
+
+# Gardening Robot Gantry (DTU Skylab)
+
+
+
+Modular Cartesian gardening robot inspired by the FarmBot Genesis, designed and built at DTU Skylab as a platform for student projects, course integration, and future startup exploration.
+
+
+
+DTU Skylab - Gardening Robot - Seeding Sequence Testing: https://www.youtube.com/watch?v=myrVL9h8MHA 
+
+DTU Skylab - Gardening Robot - Basic movements demo: https://www.youtube.com/watch?v=C3N4Af2INCI
+
+
+
+---
+
+
+
+\## Features
+
+
+
+\- 4×4 modular pot grid with laser‑cut wooden puzzle frame and 3D‑printed connectors  
+
+\- Aluminum‑extrusion CNC gantry with V‑slot X/Z and leadscrew Y‑axis  
+
+\- Toolhead with seed dispenser, watering nozzle, peristaltic pump, and USB camera  
+
+\- Fully automated sequence: drill hole → drop seed → cover → water  
+
+\- Calibrated peristaltic pump with ml‑per‑mm factor  
+
+\- Browser‑based control via Klipper + Fluidd and automation via Home Assistant  
+
+
+
+\## Repository layout
+
+
+
+\- `hardware/` – CAD models (STEP/STL), drawings, DXF for laser/waterjet, and photos  
+
+\- `electronics/` – Schematics and wiring diagrams, connector pinouts  
+
+\- `firmware/klipper/` – `printer.cfg` and macro files for motion, planting, and watering  
+
+\- `docs/` – Build guide, user guide, and notes for future improvements  
+
+
+
+\## Hardware overview
+
+
+
+\- Aluminum extrusion frame and V‑slot linear motion  
+
+\- Custom metal parts (milled, lathed, laser‑/waterjet‑cut, hand‑finished)  
+
+\- Laser‑cut 16‑pot grid mounted on 3D‑printed legs and extrusion supports  
+
+\- NEMA17 steppers, micro servo for seed dispenser, peristaltic pump, mechanical endstops  
+
+
+
+\## Electronics \& software
+
+
+
+\- 1× Raspberry Pi running Klipper + Fluidd with BTT SKR Pico motion controller  
+
+\- 1× Raspberry Pi running Home Assistant for automation  
+
+\- Custom wiring with JST connectors and soldered harnesses  
+
+\- Klipper configuration for axis calibration, safe homing, travel limits, and planting/watering macros  
+
+
+
+\## Documentation
+
+
+
+See `docs/` for:
+
+
+
+\- Step‑by‑step build instructions  
+
+\- Basic operation and maintenance  
+
+\- Ideas and guidelines for future extensions (vision, sensors, new tools)
+
+
+
