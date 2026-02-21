@@ -4,16 +4,15 @@
 
 Modular Cartesian gardening robot inspired by the FarmBot Genesis, designed and built at DTU Skylab as a platform for student projects, course integration, and future startup exploration.
 
-Farmbot: https://farm.bot/
-Farmbot Genesis Documentation: https://genesis.farm.bot/v1.8/assembly/intro
-
-
 
 DTU Skylab - Gardening Robot - Seeding Sequence Testing: https://www.youtube.com/watch?v=myrVL9h8MHA 
 
 DTU Skylab - Gardening Robot - Basic movements demo: https://www.youtube.com/watch?v=C3N4Af2INCI
 
 
+Farmbot: https://farm.bot/
+
+Farmbot Genesis Documentation: https://genesis.farm.bot/v1.8/assembly/intro
 
 \## Features
 
