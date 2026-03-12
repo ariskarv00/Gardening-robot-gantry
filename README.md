@@ -1,5 +1,5 @@
 
-# Gardening Robot Gantry (DTU Skylab)
+# Gardening Robot Gantry (Danish Technical University - Skylab)
 
 
 Modular Cartesian gardening robot inspired by the FarmBot Genesis, designed and built at DTU Skylab as a platform for student projects, course integration, and future startup exploration.
@@ -42,7 +42,7 @@ Farmbot Genesis Documentation: https://genesis.farm.bot/v1.8/assembly/intro
 
 \- `firmware/klipper/` – `printer.cfg` and pictures of Fluidd UI 
 
-\- `docs/` – Build guide, user guide, and notes for future improvements  
+\- `documentation/` – Build guide, user guide, and notes for future improvements  
 
 \- `pictures/` – Pictures of the assembly and 3D models
 
@@ -78,7 +78,7 @@ Farmbot Genesis Documentation: https://genesis.farm.bot/v1.8/assembly/intro
 
 
 
-See `docs/` for:
+See `documentation/` for:
 
 
 
